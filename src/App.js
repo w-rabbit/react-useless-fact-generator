@@ -1,9 +1,14 @@
-import './App.css';
+import "./App.css";
+import Card from "./components/Card";
+import FactButton from "./components/FactButton";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="app">
+      <Card> </Card>
+      <FactButton></FactButton>
+      <Footer></Footer>
     </div>
   );
 }

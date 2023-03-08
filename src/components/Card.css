@@ -1,0 +1,13 @@
+.card {
+  height: 40vh;
+  width: 45vw;
+  background-color: burlywood;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 12px;
+}
+.inner-items {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
