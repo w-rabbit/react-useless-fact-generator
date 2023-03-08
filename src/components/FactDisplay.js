@@ -1,10 +1,10 @@
 import "./FactDisplay.css";
 
-function FactDisplay() {
+function FactDisplay(props) {
   let uselessFact = "Flamingos can only eat with their heads upside down.";
   return (
     <div className="fact-display">
-      <div>{uselessFact}</div>
+      <p>{props.fact}</p>
     </div>
   );
 }

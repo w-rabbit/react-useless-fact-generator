@@ -1,6 +1,10 @@
 import "./FactButton.css";
 
-function FactButton() {
-  return <button className="fact-button">Generate another fact</button>;
+function FactButton(props) {
+  return (
+    <button className="fact-button" onClick={props.onGenerate}>
+      Generate another fact
+    </button>
+  );
 }
 export default FactButton;
