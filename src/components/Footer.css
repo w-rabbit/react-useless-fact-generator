@@ -4,7 +4,7 @@
   background-color: chartreuse;
   /* margin-top: auto;*/
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   display: flex;
   position: fixed;
   left: 0;
