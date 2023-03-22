@@ -10,6 +10,7 @@ function App() {
 
   //initialize page with random fact and source
   useEffect(() => {
+    console.log("aolo");
     fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en").then(
       (response) => {
         response.json().then((data) => {
@@ -22,7 +23,7 @@ function App() {
         });
       }
     );
-  });
+  }, []);
 
   const fetchFact = () => {
     fetch("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en").then(

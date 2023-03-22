@@ -1,13 +1,15 @@
 .footer {
   height: 30px;
   width: 100vw;
-  background-color: chartreuse;
+  background-color: darkkhaki;
   /* margin-top: auto;*/
   align-items: center;
   justify-content: space-evenly;
   display: flex;
+  flex-direction: column;
   position: fixed;
   left: 0;
   bottom: 0;
   font-size: 0.7rem;
+  opacity: 80%;
 }
