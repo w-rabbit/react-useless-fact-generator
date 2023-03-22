@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # react-useless-fact-generator
-=======
+
 # Random Fact Generator
 This is a React single-page application that displays random facts from this [useless facts](https://uselessfacts.jsph.pl/random?language=en) API.
 
